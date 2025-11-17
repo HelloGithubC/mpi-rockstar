@@ -7,10 +7,6 @@
 #include "potential.h"
 #include "halo.h"
 
-#define MAX_SCALE_BINS   50
-#define MIN_PART_PER_BIN 15
-#define MIN_SCALE_PART   (100)
-
 double c_to_f(double c) {
     double cp1 = 1.0 + c;
     return (c * cp1 / (log1p(c) * cp1 - c));

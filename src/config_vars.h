@@ -14,4 +14,8 @@
 #undef real
 #undef real3
 
+#define MAX_SCALE_BINS   50
+#define MIN_PART_PER_BIN 15
+#define MIN_SCALE_PART   (100)
+
 #endif /* _CONFIG_VARS_H_ */
