@@ -13,7 +13,7 @@ MPI-Rockstar is a massively parallel halo finder based on the [Rockstar](https:/
 
 **Most of functions provided in the original Rockstar can be used in MPI-Rockstar as they are.**
 
-## Manual ##
+## Documentation ##
 See [here](https://mpi-rockstar.readthedocs.io/en/latest/index.html)
 
 ## Usage policy ##
