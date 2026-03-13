@@ -1,4 +1,5 @@
 sphinx>=4.0
 myst-parser
 bleach
+python-markdown-math
 sphinx-rtd-theme
