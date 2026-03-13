@@ -1,6 +1,3 @@
 sphinx>=4.0
 myst-parser
-sphinxcontrib.mermaid
-sphinx_copybutton
-sphinx_diagrams
 sphinx-rtd-theme

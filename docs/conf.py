@@ -16,10 +16,10 @@ release = '1.0'
 
 extensions = [
     'myst_parser',
-    'sphinxcontrib.mermaid',
+#    'sphinxcontrib.mermaid',
 #    'sphinx_markdown_tables',
-    'sphinx_copybutton',
-    'sphinx_diagrams',
+#    'sphinx_copybutton',
+#    'sphinx_diagrams',
 ]
 
 templates_path = ['_templates']
