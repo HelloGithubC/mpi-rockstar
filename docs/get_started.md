@@ -81,3 +81,11 @@ mpiexec -n XXX mpi-rockstar_hdf5 -c parallel_1024.cfg  #with HDF5 output and new
 
 MPI-Rockstar can no-longer run on single process, therefore, only `PARALLEL_IO=1` is accepted (default value). The number of writer and reader processes are automatically set from the number of processes, therefore, `NUM_WRITERS`, `NUM_READERS`, `FORK_READERS_FROM_WRITERS`, and `FORK_PROCESSORS_PER_MACHINE` are abolished.
 
+
+## Performance Tips ##
+
+The optimal MPI rank / OpenMP thread configuration depends strongly on the target system, especially on cores-per-node/NUMA/memory bandwidth and the interconnect performance (latency/bandwidth/topology). In general
+- For small-to-moderate runs (relatively small total number MPI rank), communication is less likely to dominate, so a good starting point is to use **more MPI ranks with fewer threads** (often `OMP_NUM_THREADS=1`).
+- For very large runs (very large numer of MPI rank) or when memory footprint becomes a concern, using **fewer MPI ranks with more threads** can be beneficial to reduce MPI overhead and memory consumption per rank.
+
+Since this depends on the target system, we recommend a short benchmark test over a few configurations at fixed total core count (vary ranks-per-node and `OMP_NUM_THREADS` while keeping their product equal to the available physical cores), and selecting the best for the target.
