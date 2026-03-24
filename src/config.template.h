@@ -143,3 +143,8 @@ integer(SUBDIR_DIGITS_OUTPUT, 4);    // and the length of subdir names (or sub-s
 
 // Additional parameters for MPI Rockstar for memory saving transfer
 integer(MEMORY_SAVING_TRANSFER, 0); // Flag for using memory saving transfer
+
+// NFW fitting
+integer(MIN_SCALE_PART, 100);
+integer( MIN_PART_PER_BIN, 15);
+integer( MAX_SCALE_BINS, 50);
