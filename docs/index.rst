@@ -16,5 +16,6 @@ MPI-Rockstar is a massively parallel halo finder based on the `Rockstar <https:/
    setup.md
    mpi-rockstar.md
    rockstar.md
+   python.md
    policy.rst
 
