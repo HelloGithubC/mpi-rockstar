@@ -3,7 +3,7 @@
 Copyright(c) 2024 Tomoyuki Tokuue, Tomoaki Ishiyama, Ken Osato, Satoshi Tanaka, and Peter Behroozi
 
 License: GNU GPLv3  
-Paper: [![DOI](https://joss.theoj.org/papers/10.21105/joss.08295/status.svg)](https://doi.org/10.21105/joss.08295)
+Paper: [![DOI](https://joss.theoj.org/papers/10.21105/joss.08295/status.svg)](https://doi.org/10.21105/joss.08295)  
 also available on [arXiv](https://arxiv.org/abs/2412.18629)
 
 Base code: Rockstar ( (c) 2011 Peter Behroozi)  
