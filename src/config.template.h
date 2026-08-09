@@ -17,6 +17,7 @@ real(FORCE_RES, 0.003); // In Mpc/h
 real(FORCE_RES_PHYS_MAX, 0);
 
 real(NON_COSMOLOGICAL, 0);
+integer(NO_CURVATURE, 0);
 real(SCALE_NOW, 1.0);
 real(h0, 0.7);
 real(Ol, 0.73);

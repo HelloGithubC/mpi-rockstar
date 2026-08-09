@@ -54,6 +54,7 @@ Options to set the base cosmology are available:
     h0 = <hubble constant today> # in units of 100 km/s/Mpc
     Ol = <Omega_Lambda> # in units of the critical density
     Om = <Omega_Matter> # in units of the critical density
+    NO_CURVATURE = 1 #default: 0; assume zero curvature even if Om + Ol != 1
 
 These cosmology options are only relevant if one is reading from an ASCII
 or TIPSY particle file.  (For TIPSY, the `SCALE_NOW` parameter may be
